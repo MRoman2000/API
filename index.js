@@ -14,8 +14,8 @@ app.listen(port, () => {
   });
 
 let productos = [
-    { id: 1, nombre: 'Producto1', precio: 10.99 },
-    { id: 2, nombre: 'Producto2', precio: 15.99 }
+    { id: 1, nombre: 'Producto1', Descripcion : 'Prueba', stock: 10.99 , Imagen: null},
+    { id: 2, nombre: 'Producto2', Descripcion: 'Prueba', stock: 15.99 , Imagen : null }
   ];
   
   // Obtener todos los productos
